@@ -23,7 +23,7 @@ function Form() {
       <Input key={"name"} name="name" form={form} onChangeCB={onChange} />
       <Input key={"department"} name="department" form={form} onChangeCB={onChange} />
       <Input key={"college"} name="college" form={form} onChangeCB={onChange} />
-      <Input key={"year"} name="year" form={form} onChangeCB={onChange} />
+      <InputFieldkey={"year"} name="year" form={form} onChangeCB={onChange} />
       <div className="mb-4">
         <button
         className="my-class"

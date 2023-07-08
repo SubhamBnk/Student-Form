@@ -1,6 +1,6 @@
 import React from "react";
 
-function Input(props) {
+function InputField(props) {
   const { name, form, onChangeCB } = props;
   return (
     <div className="flex flex-col m-2">
@@ -20,4 +20,4 @@ function Input(props) {
   );
 }
 
-export default Input;
+export default InputField;

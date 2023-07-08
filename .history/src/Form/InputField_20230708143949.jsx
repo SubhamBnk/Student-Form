@@ -1,6 +1,6 @@
 import React from "react";
 
-function Input(props) {
+function Inputw(props) {
   const { name, form, onChangeCB } = props;
   return (
     <div className="flex flex-col m-2">
